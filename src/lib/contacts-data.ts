@@ -33,8 +33,8 @@ export const contacts: ContactLink[] = [
   {
     id: 'email',
     label: 'Email',
-    value: 'hello@dotaa.dev',
-    href: 'mailto:hello@dotaa.dev',
+    value: 'hrjmxth@gmail.comv',
+    href: 'hrjmxth@gmail.com',
     icon: 'email'
   }
 ];
