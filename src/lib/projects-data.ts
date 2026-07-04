@@ -11,7 +11,7 @@ export const projects: Project[] = [
     title: 'VpnDota',
     shortDescription: 'Самый лучший в мире бот для выдачи ключей впн',
     fullDescription:
-      'Помогает от хуесосов на правительстве и ркн ',
+      'Помогает от запретов и 政府和RCN的混蛋 ',
     logoUrl: 'https://i.ibb.co/pv37VCQJ/image.png',
     technologies: ['Python', 'Js', 'HTML/CSS'],
     screenshots: [
