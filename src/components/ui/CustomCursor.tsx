@@ -1,5 +1,4 @@
 'use client';
-
 import { useEffect, useRef } from 'react';
 
 export function CustomCursor() {
@@ -16,8 +15,7 @@ export function CustomCursor() {
       mouseX = e.clientX;
       mouseY = e.clientY;
       if (dotRef.current) {
-        dotRef.current.style.left = `${mouseX}px`;
-        dotRef.current.style.top = `${mouseY}px`;
+        dotRef.current.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0) translate(-50%, -50%)`;
       }
     }
 
@@ -25,15 +23,13 @@ export function CustomCursor() {
       ringX += (mouseX - ringX) * 0.15;
       ringY += (mouseY - ringY) * 0.15;
       if (ringRef.current) {
-        ringRef.current.style.left = `${ringX}px`;
-        ringRef.current.style.top = `${ringY}px`;
+        ringRef.current.style.transform = `translate3d(${ringX}px, ${ringY}px, 0) translate(-50%, -50%)`;
       }
       requestAnimationFrame(animateRing);
     }
 
-    window.addEventListener('mousemove', handleMove);
+    window.addEventListener('mousemove', handleMove, { passive: true });
     const rafId = requestAnimationFrame(animateRing);
-
     return () => {
       window.removeEventListener('mousemove', handleMove);
       cancelAnimationFrame(rafId);
