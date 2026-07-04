@@ -89,3 +89,29 @@ input, textarea {
   -moz-user-select: text;
   user-select: text;
 }
+
+/* Сканлайны — GPU-анимация вместо JS canvas loop */
+.scanline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 120px;
+  will-change: transform;
+}
+.scanline-1 {
+  background: linear-gradient(to bottom, transparent, rgba(255,32,78,0.035), transparent);
+  animation: scanline-move-1 8s linear infinite;
+}
+.scanline-2 {
+  height: 80px;
+  background: linear-gradient(to bottom, transparent, rgba(139,61,255,0.025), transparent);
+  animation: scanline-move-2 14s linear infinite;
+}
+@keyframes scanline-move-1 {
+  from { transform: translateY(-200px); }
+  to { transform: translateY(100vh); }
+}
+@keyframes scanline-move-2 {
+  from { transform: translateY(50vh); }
+  to { transform: translateY(calc(100vh + 150vh)); }
+}
