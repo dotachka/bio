@@ -21,9 +21,9 @@ const spaceGrotesk = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: 'DOTAA — Цифровая система',
+  title: 'DOTACHKA - все о легенде',
   description:
-    'Персональная операционная система DOTAA: разработчик, автоматизация, дизайн. Интерактивное портфолио, построенное вокруг игрового компьютера.',
+    'ХУЙ',
   icons: { icon: '/favicon.ico' }
 };
 
