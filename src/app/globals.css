@@ -22,12 +22,17 @@
 
 html {
   background: #050505;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 body {
   background-color: #050505;
   color: #ffffff;
   overscroll-behavior: none;
+  overflow-x: hidden;
+  max-width: 100vw;
+  position: relative;
 }
 
 .glass {
