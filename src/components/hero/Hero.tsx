@@ -24,7 +24,7 @@ export function Hero() {
             <span>КОДЕР</span><span className="text-primary">·</span><span>ГЕЙмер</span><span className="text-primary">·</span><span>ИГРОК</span>
           </motion.div>
           <motion.button initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.7, duration: 0.6 }} onClick={enterSystem} className="group relative mt-10 inline-flex items-center gap-3 overflow-hidden rounded-full bg-gradient-to-r from-primary to-secondary px-7 py-3.5 font-grotesk text-sm font-medium tracking-wide shadow-neon transition-transform duration-300 hover:scale-105 sm:mt-12 sm:px-8 sm:py-4 sm:text-base">
-            ВОЙТИ В СИСТЕМУ
+            УЗНАТЬ ИНФУ
             <ArrowDown size={18} className="transition-transform group-hover:translate-y-1" />
           </motion.button>
         </div>
