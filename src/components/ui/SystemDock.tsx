@@ -7,8 +7,8 @@ import { cn } from '@/utils/cn';
 
 const SECTIONS: { id: SectionId; label: string }[] = [
   { id: 'hero', label: 'Главная' },
-  { id: 'hardware', label: 'Конфиг' },
-  { id: 'steam', label: 'Игры' },
+  { id: 'hardware', label: 'Компьютер' },
+  { id: 'steam', label: 'Steam' },
   { id: 'projects', label: 'Проекты' },
   { id: 'skills', label: 'Навыки' },
   { id: 'statistics', label: 'Статистика' },
@@ -84,7 +84,7 @@ export function SystemDock() {
         initial={{ opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1, duration: 0.5 }}
-        className="fixed bottom-0 left-0 right-0 z-50 flex justify-center gap-1 border-t border-white/10 bg-black/70 px-2 py-2 backdrop-blur-lg lg:hidden"
+        className="fixed bottom-0 left-0 right-0 z-50 flex justify-center gap-1 border-t border-white/10 bg-black/90 px-2 py-2 lg:hidden"
         style={{ paddingBottom: 'max(0.5rem, env(safe-area-inset-bottom))' }}
         aria-label="Навигация по разделам системы"
       >
