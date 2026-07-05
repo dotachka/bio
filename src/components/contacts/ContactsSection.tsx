@@ -7,7 +7,7 @@ import { contactIcons } from './contact-icons';
 
 export function ContactsSection() {
   return (
-    <section id="contacts" className="relative overflow-hidden px-6 py-32 md:px-16">
+    <section id="contacts" className="relative overflow-hidden px-5 py-20 sm:px-6 sm:py-24 md:px-16 md:py-32">
       <div className="absolute inset-0 bg-glow-radial opacity-70" />
 
       <SectionHeader
@@ -30,7 +30,7 @@ export function ContactsSection() {
               viewport={{ once: true, margin: '-60px' }}
               transition={{ delay: i * 0.08, duration: 0.5 }}
               whileHover={{ y: -6, scale: 1.02 }}
-              className="group relative overflow-hidden rounded-2xl border border-white/10 bg-surface/60 p-6 backdrop-blur-xl transition-shadow duration-300 hover:shadow-neon"
+              className="group relative overflow-hidden rounded-2xl border border-white/10 bg-surface/90 p-6 transition-shadow duration-300 hover:shadow-neon lg:bg-surface/60 lg:backdrop-blur-xl"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-primary/0 via-transparent to-secondary/0 opacity-0 transition-opacity duration-300 group-hover:opacity-20 group-hover:from-primary group-hover:to-secondary" />
               <div className="relative flex items-center gap-4">
@@ -48,7 +48,7 @@ export function ContactsSection() {
       </div>
 
       <p className="relative mt-20 text-center font-grotesk text-xs tracking-[0.3em] text-text-secondary">
-        DOTACHKA · СИСТЕМА АКТИВНА
+        DOTACHKA · ВСЕ НОРМИ
       </p>
     </section>
   );
