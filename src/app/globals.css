@@ -32,10 +32,17 @@ body {
 }
 
 .glass {
-  background: rgba(16, 16, 16, 0.55);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(18px);
+  background: rgba(16, 16, 16, 0.7);
   border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Blur только на устройствах помощнее — на мобильных это дорого для GPU */
+@media (min-width: 1024px) {
+  .glass {
+    background: rgba(16, 16, 16, 0.55);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+  }
 }
 
 .text-gradient {
