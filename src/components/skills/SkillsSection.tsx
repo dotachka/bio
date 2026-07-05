@@ -6,7 +6,7 @@ import { skills } from '@/lib/skills-data';
 
 export function SkillsSection() {
   return (
-    <section id="skills" className="relative px-6 py-32 md:px-16">
+    <section id="skills" className="relative px-5 py-20 sm:px-6 sm:py-24 md:px-16 md:py-32">
       <SectionHeader index="05 · НАВЫКИ" title="Навыки" subtitle="Технологии, в которых я не шарю" />
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {skills.map((skill, i) => (
