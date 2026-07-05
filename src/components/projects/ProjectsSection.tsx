@@ -11,7 +11,7 @@ export function ProjectsSection() {
   const [activeProject, setActiveProject] = useState<Project | null>(null);
 
   return (
-    <section id="projects" className="relative px-6 py-32 md:px-16">
+    <section id="projects" className="relative px-5 py-20 sm:px-6 sm:py-24 md:px-16 md:py-32">
       <SectionHeader
         index="03 · ПРИЛОЖЕНИЯ"
         title="Проекты"
