@@ -13,7 +13,7 @@ export function ProjectsSection() {
   return (
     <section id="projects" className="relative px-5 py-20 sm:px-6 sm:py-24 md:px-16 md:py-32">
       <SectionHeader
-        index="03 · ПРИЛОЖЕНИЯ"
+        index="03 · ВСЕ ПРОЕКТИКИ"
         title="Проекты"
         subtitle="Каждый проект открывается как отдельное окно системы."
       />
