@@ -12,7 +12,7 @@ export function SteamSection() {
   const isPrivate = error?.includes('PRIVATE_PROFILE') || error?.includes('Сведения об играх');
 
   return (
-    <section id="steam" className="relative px-6 py-32 md:px-16">
+    <section id="steam" className="relative px-5 py-20 sm:px-6 sm:py-24 md:px-16 md:py-32">
       <SectionHeader
         index="02 · ИГРУШКИ ТУДА СЮДА"
         title="Steam"
