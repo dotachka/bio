@@ -33,8 +33,15 @@ export const contacts: ContactLink[] = [
   {
     id: 'email',
     label: 'Email',
-    value: 'hrjmxth@gmail.com',
-    href: 'hrjmxth@gmail.com',
+    value: 'hello@dotaa.dev',
+    href: 'mailto:hello@dotaa.dev',
     icon: 'email'
-  }
+  },
+  {
+    id: 'TikTok',
+    label: 'TikTok',
+    value: 'Mrdotachka',
+    href: 'https://www.tiktok.com/@mrdotachka?_r=1&_t=ZP-97tmAyUd1lG',
+    icon: 'TikTok'
+  },
 ];
