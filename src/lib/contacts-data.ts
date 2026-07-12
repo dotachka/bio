@@ -32,10 +32,10 @@ export const contacts: ContactLink[] = [
   },
   {
     id: 'email',
-    label: 'Email',
-    value: 'hello@dotaa.dev',
-    href: 'mailto:hello@dotaa.dev',
-    icon: 'email'
+    label: 'TgChanel',
+    value: 'Lifechik',
+    href: 'https://t.me/+ONsEMkw4lg8xMjli',
+    icon: 'telegram'
   },
   {
     id: 'TikTok',
